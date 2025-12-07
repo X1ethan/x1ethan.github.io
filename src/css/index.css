@@ -1,9 +1,8 @@
-.digital-time {
+#fullDate {
     font-size: 4.5rem;
     font-weight: 700;
     letter-spacing: 2px;
     margin: 15px 0;
-    font-family: 'Courier New', monospace;
     color: #4dccff;
     text-shadow: 0 0 10px rgba(77, 204, 255, 0.5);
 }
