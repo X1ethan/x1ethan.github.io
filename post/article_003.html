@@ -9,11 +9,21 @@
 
 <body>
     <h1 class="header">CSS基础-练习网页</h1>
-    <a href="/index.html">返回首页</a>
-    <br>
-    <a href="/post/article_001.html">HTML基础-练习网页</a>
-    <br>
-    <a href="/post/article_002.html">CSS基础-练习网页</a>
+
+    <div>
+        <h2>目录</h2>
+        <ol>
+            <li>
+                <a href="/index.html">返回首页</a>
+            </li>
+            <li>
+                <a href="/post/article_001.html">HTML基础-练习网页</a>
+            </li>
+            <li>
+                <a href="/post/article_002.html">02 CSS基础-练习网页</a>
+            </li>
+        </ol>
+    </div>
 
     <hr>
 
@@ -21,18 +31,18 @@
         <p id="date_demo">点击下方按钮，显示当前时间。</p>
         <button type="button" onclick="displayDate()">显示日期</button>
     </div>
-
+    <hr>
     <div>
         <button type="button" onclick="alert('欢迎!')">点我!</button>
     </div>
-
+    <hr>
     <div>
         <script>
             document.write("<h1>这是一个标题</h1>");
             document.write("<p>这是一个段落。</p>");
         </script>
     </div>
-
+    <hr>
     <div>
         <h1>JavaScript 验证输入</h1>
 
@@ -43,14 +53,11 @@
         <button type="button" onclick="inputCheck()">提交</button>
         <p id="inputdemo"></p>
     </div>
-
+    <hr>
     <div>
-        <form name="myForm" action="demo-form.php" onsubmit="return validateForm()" method="post">
-            姓: <input type="text" name="fname">
-            <input type="submit" value="提交">
-        </form>
-    </div>
 
+    </div>
+    <hr>
     <div>
         <h1 id="id1">我的标题 1</h1>
         <button type="button" onclick="document.getElementById('id1').style.color='red'">
