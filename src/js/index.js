@@ -23,7 +23,7 @@ function updateTime() {
     let minutes = now.getMinutes();
     let seconds = now.getSeconds();
 
-    const timeString = `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
+    const timeString = `${hours}:${minutes}:${seconds}`;
 
     // 更新数字时钟
     digitalTimeElement.textContent = timeString;
