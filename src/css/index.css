@@ -1,3 +1,8 @@
+.center {
+    background-color: azure;
+    margin: auto;
+    text-align: center;
+}
 .digital-time {
     font-size: 4.5rem;
     font-weight: 700;
