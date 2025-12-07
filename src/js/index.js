@@ -28,7 +28,7 @@ function updateTime() {
     // 更新数字时钟
     digitalTimeElement.textContent = timeString;
 
-    console.log(timeString)
+    //console.log(timeString)
 
     const year = now.getFullYear();
     const month = months[now.getMonth()];
