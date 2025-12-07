@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <h1 >记录思考，分享知识</h1>
+    <h1>记录思考，分享知识</h1>
     <hr>
     <div>
         <div class="full-date" id="fullDate">2026年1月1日 星期四</div>
@@ -34,7 +34,13 @@
             </li>
         </ol>
     </div>
-    <script src="/src/js/index.js"></script>
+    <script>
+        // 初始更新时间
+        updateTime();
+
+        // 每秒更新一次时间
+        setInterval(updateTime, 1000);
+    </script>
 </body>
 
 </html>

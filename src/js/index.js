@@ -22,8 +22,8 @@ function updateTime() {
     let hours = now.getHours();
     let minutes = now.getMinutes();
     let seconds = now.getSeconds();
-    
-     const timeString = `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
+
+    const timeString = `${formatTime(hours)}:${formatTime(minutes)}:${formatTime(seconds)}`;
 
     // 更新数字时钟
     digitalTimeElement.textContent = timeString;
@@ -37,15 +37,8 @@ function updateTime() {
 
     fullDateElement.textContent = `${year}年${month}${day}日 ${weekday}`;
 
-    // 获取时区信息
-    const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
-    const timezoneOffset = -date.getTimezoneOffset() / 60;
-    const offsetSign = timezoneOffset >= 0 ? '+' : '-';
-    const offsetString = `UTC${offsetSign}${Math.abs(timezoneOffset)}`;
-
-    timezoneElement.textContent = `时区：${timezone} (${offsetString})`;
-
 }
+
 // 初始更新时间
 updateTime();
 
