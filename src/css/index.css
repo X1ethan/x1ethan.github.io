@@ -1,15 +1,28 @@
+body {
+    background-color: gainsboro;
+    padding: 25px 50px;
+}
+
+
 .center {
-    background-color: azure;
-    margin: auto;
+    background-color: white;
+    width: 300px;
+    padding: 30px;
+    border-radius: 15px;
+    /* 圆角 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* 阴影 */
     text-align: center;
 }
+
+
 .digital-time {
     font-size: 4.5rem;
     font-weight: 700;
     letter-spacing: 2px;
     margin: 15px 0;
     color: #4dccff;
-    text-shadow: 0 0 10px rgba(77, 204, 255, 0.5);
+    text-shadow: 0 0 10px rgba(8, 53, 177, 0.89);
 }
 
 
