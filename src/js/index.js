@@ -46,14 +46,8 @@ function updateTime() {
     timezoneElement.textContent = `时区：${timezone} (${offsetString})`;
 
 }
-
+// 初始更新时间
 updateTime();
 
-
-
-// 初始更新时间
-// updateTime();
-
 // 每秒更新一次时间
-//setInterval(updateTime, 1000);
 setInterval(updateTime, 1000);
