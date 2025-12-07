@@ -1,16 +1,20 @@
 body {
-    background-color:#d0e4fe;
-}
-h1 {
-    color:orange;
-    text-align:center;
-}
-p {
-    font-family:"Times New Roman";
-    font-size:20px;
+    background-color: #d0e4fe;
 }
 
-hr {color:sienna;}
+h1 {
+    color: orange;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 20px;
+}
+
+hr {
+    color: sienna;
+}
 
 /* 鼠标悬停在按钮上的效果 */
 button:hover {
@@ -22,21 +26,39 @@ button:hover {
     background-color: white;
     width: 300px;
     padding: 30px;
-    border-radius: 15px;      /* 圆角 */
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1); /* 阴影 */
+    border-radius: 15px;
+    /* 圆角 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    /* 阴影 */
     text-align: center;
 }
 
 .header {
-  background-color: #F1F1F1;
-  text-align: center;
-  padding: 20px;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
 }
 
-a:link {color:#000000;}      /* 未访问链接*/
-a:visited {color:#00FF00;}  /* 已访问链接 */
-a:hover {color:#FF00FF;}  /* 鼠标移动到链接上 */
-a:active {color:#0000FF;}  /* 鼠标点击时 */
+a:link {
+    color: #000000;
+}
+
+/* 未访问链接*/
+a:visited {
+    color: #00FF00;
+}
+
+/* 已访问链接 */
+a:hover {
+    color: #FF00FF;
+}
+
+/* 鼠标移动到链接上 */
+a:active {
+    color: #0000FF;
+}
+
+/* 鼠标点击时 */
 
 
 .div_css {
@@ -46,15 +68,47 @@ a:active {color:#0000FF;}  /* 鼠标点击时 */
     margin: 25px;
 }
 
- /* border 类型 */
-p.none {border-style:none;}
-p.dotted {border-style:dotted;}
-p.dashed {border-style:dashed;}
-p.solid {border-style:solid;}
-p.double {border-style:double;}
-p.groove {border-style:groove;}
-p.ridge {border-style:ridge;}
-p.inset {border-style:inset;}
-p.outset {border-style:outset;}
-p.hidden {border-style:hidden;}
-p.mix {border-style: dotted dashed solid double;}
+/* border 类型 */
+p.none {
+    border-style: none;
+}
+
+p.dotted {
+    border-style: dotted;
+}
+
+p.dashed {
+    border-style: dashed;
+}
+
+p.solid {
+    border-style: solid;
+}
+
+p.double {
+    border-style: double;
+}
+
+p.groove {
+    border-style: groove;
+}
+
+p.ridge {
+    border-style: ridge;
+}
+
+p.inset {
+    border-style: inset;
+}
+
+p.outset {
+    border-style: outset;
+}
+
+p.hidden {
+    border-style: hidden;
+}
+
+p.mix {
+    border-style: dotted dashed solid double;
+}
