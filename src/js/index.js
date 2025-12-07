@@ -30,10 +30,10 @@ function updateTime() {
 
     console.log(timeString)
 
-    const year = date.getFullYear();
-    const month = months[date.getMonth()];
-    const day = date.getDate();
-    const weekday = weekdays[date.getDay()];
+    const year = now.getFullYear();
+    const month = months[now.getMonth()];
+    const day = now.getDate();
+    const weekday = weekdays[now.getDay()];
 
     fullDateElement.textContent = `${year}年${month}${day}日 ${weekday}`;
 
